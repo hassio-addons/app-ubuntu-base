@@ -33,7 +33,7 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20260601~26.04.1 \
-        curl=8.18.0-1ubuntu2.5 \
+        curl=8.18.0-1ubuntu2.7 \
         jq=1.8.1-4ubuntu2 \
         tzdata=2026c-0ubuntu0.26.04.1 \
         xz-utils=5.8.3-1 \

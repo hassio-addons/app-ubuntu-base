@@ -36,7 +36,7 @@ RUN \
         curl=8.18.0-1ubuntu2.8 \
         jq=1.8.1-4ubuntu2 \
         tzdata=2026e-0ubuntu0.26.04.1 \
-        xz-utils=5.8.3-1 \
+        xz-utils=5.8.3-1ubuntu0.1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "amd64" ]; then S6_ARCH="x86_64"; fi \
